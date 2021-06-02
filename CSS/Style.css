@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+form{
+    width:96%;
+    max-width:720px;
+    margin:0 auto;
+    text-align:center;
+}
+form fieldset{
+    padding: 20px 40px;
+    border: 2px solid purple;
+   
+}
+form legend{
+    text-align:left;
+    font-size:25px;
+    color: rgb(108, 42, 128);
+}
+form input[type=text]{
+    display:inline-block;
+    margin-top:15px;
+    width: 80%;
+    padding: 10px 10px;
+    border: 2px solid purple;
+    font-family:"Times New Roman", Times,serif;
+}
+form input[type=text]:focus, form select:focus, form textarea:focus{
+    outline:0;
+}
+form select{
+    width: calc(80% + 22px);
+    margin-top:15px;
+    display:inline-block;
+    padding: 10px 10px;
+    border: 2px solid purple;
+}
+
+form h2{
+    margin-top:15px;
+}
+.input{
+    margin-top:15px;
+    display:inline-block;
+    text-align:left;
+}
+.input span{  
+    margin-left:5px;
+    font-size:18px;
+    color:Black;
+}
+form input[type=radio],form input[type=checkbox]{
+    cursor:pointer;
+}
+
+form input[type=submit]{
+    margin-top:15px;
+    width: 120px;
+    height: 35px;
+    border: 0;
+    color:white;
+    background-color:purple;
+    padding: 2px 2px; 
+    cursor:pointer
+}
+form textarea{
+    margin-top:15px;
+    display:inline-block;
+    text-align:left;
+    width: 80%;
+    height: 120px;
+    resize:none;
+    border-color:purple;
+    font-family:"Times New Roman", Times,serif;
+    font-size: 20px;
+}
